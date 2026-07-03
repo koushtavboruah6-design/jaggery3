@@ -7,7 +7,7 @@ import { Reveal } from './reveal'
 // TODO: replace with the real Jaggery Hospitality WhatsApp number,
 // in international format with country code and no symbols/spaces.
 // Example for an Indian number 98765 43210 -> "919876543210"
-const WHATSAPP_NUMBER = '919999999999'
+const WHATSAPP_NUMBER = '91702212758'
 
 const services = [
   'Hotel Operational Consultancy',

@@ -18,7 +18,7 @@ const services = [
   {
     title: 'Pre-Opening Support',
     body: 'Concept development, launch planning, staffing, operational readiness, and structured support before opening day.',
-    image: '/images/service-preopening.png',
+    image: '/images/service-preopening.jpeg',
   },
 ]
 
