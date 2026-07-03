@@ -39,7 +39,7 @@ export function Cta() {
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href="tel:+910000000000"
+              href="tel:+917002212758"
               className="inline-flex items-center gap-2 rounded-full border border-foreground/30 bg-card/30 px-7 py-3.5 text-sm font-medium text-foreground backdrop-blur transition-colors hover:bg-card/50"
             >
               <Phone className="h-4 w-4" />

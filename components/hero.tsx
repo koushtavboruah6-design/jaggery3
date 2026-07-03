@@ -38,15 +38,15 @@ export function Hero() {
       className="relative isolate overflow-hidden px-5 pb-16 pt-36 md:px-8 md:pt-44"
     >
       {/* hero background image */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[65vh] md:bottom-0 md:h-auto">
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 aspect-[4/3] w-full md:bottom-0 md:h-auto md:aspect-auto">
         <Image
           src="/images/jaggery-hero.png"
           alt=""
           fill
-          className="object-cover object-[center_top] md:object-center"
+          className="object-cover object-right md:object-center"
           priority
         />
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent md:hidden" />
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-background to-transparent md:hidden" />
       </div>
 
       <div className="mx-auto max-w-7xl">
